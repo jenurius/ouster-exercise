@@ -1,0 +1,60 @@
+body {
+  padding: 5px 2px 5px 0px;
+}
+
+.user-container {
+  padding-left: 10px;
+}
+
+.user-card {
+  background: white;
+  margin-bottom: 2px;
+  border: 1px solid lightgrey;
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.user-details {
+  display: none;
+  padding: 0px 15px 0px 15px;
+  border-top: 1px solid white;
+}
+
+.chevron.expand {
+  transform: rotate(90deg);
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+.badge {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.completed {
+  background: green;
+  color: white;
+}
+
+.pending {
+  background: lightgray;
+}
+
+.hidden {
+  display: none;
+}
+
+.error-container {
+  border-right: 1px solid red;
+  padding: 5px 0px 0 15px;
+}
